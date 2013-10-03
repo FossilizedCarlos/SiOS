@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		439F477317FD04F7002EAB82 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 439F476D17FD04F7002EAB82 /* libTestFlight.a */; };
+		439F477417FD04F7002EAB82 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 439F476E17FD04F7002EAB82 /* README.md */; };
+		439F477517FD04F7002EAB82 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 439F476F17FD04F7002EAB82 /* release_notes.md */; };
+		439F478017FD0CFD002EAB82 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 439F477A17FD0CFD002EAB82 /* Icon-29.png */; };
+		439F478117FD0CFD002EAB82 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 439F477B17FD0CFD002EAB82 /* Icon-40.png */; };
+		439F478217FD0CFD002EAB82 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 439F477C17FD0CFD002EAB82 /* Icon-58.png */; };
+		439F478317FD0CFD002EAB82 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 439F477D17FD0CFD002EAB82 /* Icon-76.png */; };
+		439F478417FD0CFD002EAB82 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 439F477E17FD0CFD002EAB82 /* Icon-80.png */; };
+		439F478517FD0CFD002EAB82 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 439F477F17FD0CFD002EAB82 /* Icon-152.png */; };
 		A00403C114BE3E4D00FE28CE /* apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00401E514BE3E4D00FE28CE /* apu.cpp */; };
 		A00403C314BE3E4D00FE28CE /* SNES_SPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00401F014BE3E4D00FE28CE /* SNES_SPC.cpp */; };
 		A00403C414BE3E4D00FE28CE /* SNES_SPC_misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00401F214BE3E4D00FE28CE /* SNES_SPC_misc.cpp */; };
@@ -134,6 +143,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		439F476D17FD04F7002EAB82 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		439F476E17FD04F7002EAB82 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		439F476F17FD04F7002EAB82 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		439F477017FD04F7002EAB82 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		439F477117FD04F7002EAB82 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		439F477217FD04F7002EAB82 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		439F477917FD0CD3002EAB82 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		439F477A17FD0CFD002EAB82 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		439F477B17FD0CFD002EAB82 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		439F477C17FD0CFD002EAB82 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		439F477D17FD0CFD002EAB82 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		439F477E17FD0CFD002EAB82 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		439F477F17FD0CFD002EAB82 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
 		A00401E314BE3E4D00FE28CE /* 65c816.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 65c816.h; sourceTree = "<group>"; };
 		A00401E514BE3E4D00FE28CE /* apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = apu.cpp; sourceTree = "<group>"; };
 		A00401E614BE3E4D00FE28CE /* apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apu.h; sourceTree = "<group>"; };
@@ -377,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A8A0FC14B25409003C5688 /* libz.dylib in Frameworks */,
+				439F477317FD04F7002EAB82 /* libTestFlight.a in Frameworks */,
 				A0A8A0FA14B25401003C5688 /* AudioToolbox.framework in Frameworks */,
 				A050663214B21DDB003E0C5E /* QuartzCore.framework in Frameworks */,
 				A050660C14B21C7F003E0C5E /* UIKit.framework in Frameworks */,
@@ -388,6 +411,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		439F476C17FD04F7002EAB82 /* TestFlightSDK */ = {
+			isa = PBXGroup;
+			children = (
+				439F476D17FD04F7002EAB82 /* libTestFlight.a */,
+				439F476E17FD04F7002EAB82 /* README.md */,
+				439F476F17FD04F7002EAB82 /* release_notes.md */,
+				439F477017FD04F7002EAB82 /* TestFlight+AsyncLogging.h */,
+				439F477117FD04F7002EAB82 /* TestFlight+ManualSessions.h */,
+				439F477217FD04F7002EAB82 /* TestFlight.h */,
+			);
+			path = TestFlightSDK;
+			sourceTree = "<group>";
+		};
 		A00401E214BE3E4D00FE28CE /* SNES9X */ = {
 			isa = PBXGroup;
 			children = (
@@ -588,6 +624,7 @@
 		A05065FC14B21C7E003E0C5E = {
 			isa = PBXGroup;
 			children = (
+				439F476C17FD04F7002EAB82 /* TestFlightSDK */,
 				A050661114B21C7F003E0C5E /* SiOS */,
 				A050660A14B21C7F003E0C5E /* Frameworks */,
 				A050660814B21C7F003E0C5E /* Products */,
@@ -723,6 +760,13 @@
 		A0BF01A614EC42C8006534F2 /* Artwork (System) */ = {
 			isa = PBXGroup;
 			children = (
+				439F477A17FD0CFD002EAB82 /* Icon-29.png */,
+				439F477B17FD0CFD002EAB82 /* Icon-40.png */,
+				439F477C17FD0CFD002EAB82 /* Icon-58.png */,
+				439F477D17FD0CFD002EAB82 /* Icon-76.png */,
+				439F477E17FD0CFD002EAB82 /* Icon-80.png */,
+				439F477F17FD0CFD002EAB82 /* Icon-152.png */,
+				439F477917FD0CD3002EAB82 /* Icon-120.png */,
 				A0C41FEF1602259F0038CF06 /* Default-568h@2x.png */,
 				A0C41FF5160227C00038CF06 /* Default-Landscape.png */,
 				A0C41FF6160227C00038CF06 /* Default-Landscape@2x.png */,
@@ -785,6 +829,11 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Lucas Menge";
+				TargetAttributes = {
+					A050660614B21C7F003E0C5E = {
+						DevelopmentTeam = 64SE2VTT3X;
+					};
+				};
 			};
 			buildConfigurationList = A050660114B21C7E003E0C5E /* Build configuration list for PBXProject "SiOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -814,29 +863,37 @@
 				A0B8686014BE2C9500663EBE /* ButtonDarkPurple@2x.png in Resources */,
 				A0B8685D14BE25F900663EBE /* ButtonLightPurple.png in Resources */,
 				A0B8686214BE2C9900663EBE /* ButtonLightPurple@2x.png in Resources */,
+				439F477417FD04F7002EAB82 /* README.md in Resources */,
 				A0B8685E14BE25F900663EBE /* ButtonWide.png in Resources */,
 				A0B8686414BE2C9E00663EBE /* ButtonWide@2x.png in Resources */,
 				A0B8686714BE391300663EBE /* ButtonDPad.png in Resources */,
 				A0B8686814BE391300663EBE /* ButtonDPad@2x.png in Resources */,
 				A03C088314BF8CAE003FAEB9 /* ButtonNumberDefault.png in Resources */,
 				A03C088414BF8CAE003FAEB9 /* ButtonNumberDefault@2x.png in Resources */,
+				439F478517FD0CFD002EAB82 /* Icon-152.png in Resources */,
 				A03C088514BF8CAE003FAEB9 /* ButtonNumberMinus.png in Resources */,
 				A03C088614BF8CAE003FAEB9 /* ButtonNumberMinus@2x.png in Resources */,
 				A03C088714BF8CAE003FAEB9 /* ButtonNumberPlus.png in Resources */,
+				439F478217FD0CFD002EAB82 /* Icon-58.png in Resources */,
 				A03C088814BF8CAE003FAEB9 /* ButtonNumberPlus@2x.png in Resources */,
 				A0BB592614E84BC000D12F97 /* Localizable.strings in Resources */,
+				439F478317FD0CFD002EAB82 /* Icon-76.png in Resources */,
 				A0BF018E14E98A19006534F2 /* ButtonGrey.png in Resources */,
 				A0BF018F14E98A19006534F2 /* ButtonGrey@2x.png in Resources */,
+				439F478117FD0CFD002EAB82 /* Icon-40.png in Resources */,
+				439F478417FD0CFD002EAB82 /* Icon-80.png in Resources */,
 				A0BF01AA14EC42C8006534F2 /* Icon-114.png in Resources */,
 				A0BF01AB14EC42C8006534F2 /* Icon-57.png in Resources */,
 				A0BF01AC14EC42C8006534F2 /* Icon-72.png in Resources */,
 				A0C41FED160224FB0038CF06 /* CHANGELOG.TXT in Resources */,
 				A0C41FEE160224FB0038CF06 /* README.TXT in Resources */,
 				A0C41FF01602259F0038CF06 /* Default-568h@2x.png in Resources */,
+				439F477517FD04F7002EAB82 /* release_notes.md in Resources */,
 				A0C41FF3160225F90038CF06 /* Default.png in Resources */,
 				A0C41FF4160225F90038CF06 /* Default@2x.png in Resources */,
 				A0C41FF9160227C00038CF06 /* Default-Landscape.png in Resources */,
 				A0C41FFA160227C00038CF06 /* Default-Landscape@2x.png in Resources */,
+				439F478017FD0CFD002EAB82 /* Icon-29.png in Resources */,
 				A0C41FFB160227C00038CF06 /* Default-Portrait.png in Resources */,
 				A0C41FFC160227C00038CF06 /* Default-Portrait@2x.png in Resources */,
 				A0C41FFE160229E20038CF06 /* Icon-144.png in Resources */,
@@ -1020,15 +1077,19 @@
 		A050662914B21C7F003E0C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/SNES9X/macosx\"",
+					"\\\"$(SRCROOT)/SNES9X/macosx\\\"",
+					"/Users/PetroEkos/Documents/SkyDrive/Fossilized\\ Bits/SiOS/TestFlightSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SNES_CFLAGS = "-funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1036,15 +1097,19 @@
 		A050662A14B21C7F003E0C5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/SNES9X/macosx\"",
+					"\\\"$(SRCROOT)/SNES9X/macosx\\\"",
+					"/Users/PetroEkos/Documents/SkyDrive/Fossilized\\ Bits/SiOS/TestFlightSDK",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SNES_CFLAGS = "-funsigned-char -ffast-math -fexpensive-optimizations -mstructure-size-boundary=32 -falign-functions=32 -falign-loops -falign-labels -falign-jumps -finline -finline-functions -fno-builtin -fno-common -fomit-frame-pointer -fpeel-loops -fstrength-reduce -funroll-loops -fstrict-aliasing";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

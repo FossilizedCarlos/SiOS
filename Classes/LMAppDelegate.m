@@ -10,6 +10,8 @@
 
 #import "LMROMBrowserController.h"
 
+#import "TestFlight.h"
+
 // TODO: LM: Open SMC, SFC, FIG, ZIP, SRM and FRZ files from other iOS apps
 // TODO: LM: Better save UI to allow for multiple slots
 // TODO: LM: save/show screenshots for save states in the save state manager
@@ -28,6 +30,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [TestFlight takeOff:@"47010c59-453c-4dec-867b-a129e54351ee"];
+    
   self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
   
   LMROMBrowserController* romBrowser = [[LMROMBrowserController alloc] init];
